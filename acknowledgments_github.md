@@ -175,3 +175,92 @@
 2017年3月17日
 ---------------
  - @yaoxiuyong ==> Chapter 5, 5.1.4节特征权重增加／减少校对
+
+2017年4月5日
+---------------
+ - @sailordiary ==> Chapter3, "Reverend"=>"牧师"，详见[issue](https://github.com/exacity/deeplearningbook-chinese/issues/53)
+
+2017年4月7日
+---------------
+ - @poerin ==> Chapter6, 去掉"第"
+
+2017年4月9日
+---------------
+ - @ninesunqian ==> Chapter6, "二进制函数"=>"二值型函数"
+
+2017年4月21日
+---------------
+ - @JiaqiYao ==> Chapter6, 公式`q_i - p_i`的推导，详见[issue](https://github.com/exacity/deeplearningbook-chinese/issues/66)
+ - @zhouqingping  ==> Chapter 7, 有放回采样
+
+
+2017年4月25日
+---------------
+ - @ninesunqian ==> Chapter 8, line search, gaussian value 翻译调整
+
+2017年4月28日
+---------------
+ - @sailordinary ==> Chapter 8, 语句调整
+ - @freedomRen ==> Chapter 8, 语句调整
+
+2017年4月30日
+---------------
+ - @ninesunqian ==> Chapter9, 图9.18子图顺序问题
+
+2017年5月2日
+---------------
+ - @jt827859032 ==> Chapter5, 5.1节一处翻译调整
+ - @demolpc ==> Chapter5, 5.2节三处翻译调整
+ - @Sofring, @wenlei ==> Chapter 1, “人体”翻译
+
+2017年5月5日
+---------------
+ - @jt827859032 ==> Chapter5, 5.1节一处翻译调整
+
+2017年5月21日
+---------------
+ - @neo0801 ==> Chapter2, 2.2节一处翻译调整
+
+2017年6月7日
+---------------
+ - @tjliupeng ==> Chapter 5, 翻译调整
+
+2017年6月21日
+---------------
+ - @xiaolangyuxin ==> Chapter2, 翻译校正
+
+2017年6月23日
+---------------
+ - @whatbeg ==> Section 8.7, 两处翻译调整
+
+2017年7月14日
+---------------
+ - @xiaolangyuxin ==> Section 4.4, 翻译调整
+
+2017年7月17日
+---------------
+ - @tjliupeng ==> Section 8.4，翻译调整
+
+2017年7月30日
+---------------
+ - @xiaolangyuxin ==> Section 8.4, "多块" -> "多快"
+
+2017年10月14日
+---------------
+ - @CarlKing5019 ==> Chapter 2, 翻译调整
+
+2017年10月28日
+---------------
+ - @Godricly ==> Section 8.2.1，翻译调整
+
+2017年11月27日
+---------------
+ - @12wang3 ==> Section 5.3.1，翻译指正。
+
+2018年5月22日
+---------------
+ - @caisp ==> Section 2.4，翻译调整
+
+2018年11月26日
+---------------
+ - @CristopherOh ==> Section 5.3，翻译指正

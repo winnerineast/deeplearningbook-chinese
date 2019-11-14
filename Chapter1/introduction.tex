@@ -1,6 +1,6 @@
 % !Mode:: "TeX:UTF-8"
 % Translator: Shenjian Zhao
-\chapter{前言}
+\chapter{引言}
 \label{chap:introduction}
 远在古希腊时期，发明家就梦想着创造能自主思考的机器。
 神话人物皮格马利翁(Pygmalion)、代达罗斯(Daedalus)和赫淮斯托斯(Hephaestus)可以被看作传说中的发明家，而加拉蒂亚(Galatea)、塔洛斯(Talos)和潘多拉(Pandora)则可以被视为人造生命\citep{ovid2004metamorphoses,sparkes1996red,1997works}。
@@ -36,7 +36,7 @@
 \gls{AI}的一个关键挑战就是如何将这些非形式化的知识传达给计算机。
 
 一些\gls{AI}项目力求将关于世界的知识用形式化的语言进行硬编码(hard-code)。
-计算机可以使用逻辑推理规则来自动地理解这些形式化语言中的申明。
+计算机可以使用逻辑推理规则来自动地理解这些形式化语言中的声明。
 这就是众所周知的\gls{AI}的\firstgls{knowledge_base}方法。
 然而，这些项目最终都没有取得重大的成功。
 其中最著名的项目是Cyc \citep{Lenat-1989-book}。
@@ -45,7 +45,7 @@ Cyc包括一个\gls{inference}引擎和一个使用CycL语言描述的声明数�
 这是一个笨拙的过程。
 人们设法设计出足够复杂的形式化规则来精确地描述世界。
 例如，Cyc不能理解一个关于名为~\ENNAME{Fred}~的人在早上剃须的故事\citep{MachineChangedWorld}。
-它的推理引擎检测到故事中的不一致性：它知道人没有电气零件，但由于~\ENNAME{Fred}~正拿着一个电动剃须刀，它认为实体
+它的推理引擎检测到故事中的不一致性：它知道人体的构成不包含电气零件，但由于~\ENNAME{Fred}~正拿着一个电动剃须刀，它认为实体
 ``正在剃须的Fred''\,(``FredWhileShaving'')含有电气部件。
 因此它产生了这样的疑问——\ENNAME{Fred}~在刮胡子的时候是否仍然是一个人。
 
@@ -326,7 +326,7 @@ MRI扫描的单一像素与分娩过程中并发症之间的相关性微乎其�
 % -- 13 --
   
 现代术语``\gls{DL}''超越了目前\gls{ML}模型的神经科学观点。
-它诉诸于学习\emph{多层次组合}这一更普遍的原理，这一原理也可以应用于那些并非受神经科学启发的\gls{ML}框架。
+它诉诸学习\emph{多层次组合}这一更普遍的原理，这一原理也可以应用于那些并非受神经科学启发的\gls{ML}框架。
  
  
 现代\gls{DL}的最早前身是从神经科学的角度出发的简单线性模型。
@@ -417,7 +417,7 @@ MRI扫描的单一像素与分娩过程中并发症之间的相关性微乎其�
 这个算法虽然曾黯然失色不再流行，但截至写书之时，它仍是训练深度模型的主导方法。% ??
 
 在20世纪90年代，研究人员在使用\gls{NN}进行序列建模的方面取得了重要进展。
-\citet{Hochreiter91}和~\citet{Bengio1994ITNN}指出了对长序列进行建模的一些根本性数学难题，这将在\secref{sec:the_challenge_of_long_term_dependencies}中描述。
+\citet{Hochreiter91}和~\citet{Bengio-trnn93-small}指出了对长序列进行建模的一些根本性数学难题，这将在\secref{sec:the_challenge_of_long_term_dependencies}中描述。
 \citet{Hochreiter+Schmidhuber-1997}引入\firstall{LSTM}网络来解决这些难题。
 如今，\glssymbol{LSTM}~在许多序列建模任务中广泛应用，包括Google的许多自然语言处理任务。
 

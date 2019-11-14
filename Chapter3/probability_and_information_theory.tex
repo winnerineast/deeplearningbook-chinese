@@ -7,7 +7,7 @@
 
 概率论是用于表示不确定性\gls{statement}的数学框架。
 %(statement要不要换一下说法)
-它不仅提供了量化不确定性的方法，也提供了用于导出新的不确定性\gls{statement}的公理。
+它不仅提供了量化不确定性的方法，也提供了用于导出新的不确定性\firstgls{statement}的公理。
 在\gls{AI}领域，概率论主要有两种用途。
 首先，概率法则告诉我们~\glssymbol{AI}~系统如何推理，据此我们设计一些算法来计算或者估算由概率论导出的表达式。
 其次，我们可以用概率和统计从理论上分析我们提出的~\glssymbol{AI}~系统的行为。
@@ -292,12 +292,12 @@ p(\RSx = x \mid \RSz = z) p(\RSy = y \mid \RSz = z).
 如果\gls{covariance}是负的，那么其中一个变量倾向于取得相对较大的值的同时，另一个变量倾向于取得相对较小的值，反之亦然。
 其他的衡量指标如\firstgls{correlation}将每个变量的贡献归一化，为了只衡量变量的相关性而不受各个变量尺度大小的影响。
 
-\gls{covariance}和相关性是有联系的，但实际上不同的概念。
+\gls{covariance}和相关性是有联系的，但实际上是不同的概念。
 它们是有联系的，因为两个变量如果相互独立那么它们的\gls{covariance}为零，如果两个变量的\gls{covariance}不为零那么它们一定是相关的。
 然而，独立性又是和\gls{covariance}完全不同的性质。
 两个变量如果\gls{covariance}为零，它们之间一定没有线性关系。
-独立性是比零\gls{covariance}的要求更强，因为独立性还排除了非线性的关系。
-两个变量相互依赖但是具有零\gls{covariance}是可能的。
+独立性比零\gls{covariance}的要求更强，因为独立性还排除了非线性的关系。
+两个变量相互依赖但具有零\gls{covariance}是可能的。
 例如，假设我们首先从区间$[-1, 1]$上的\gls{uniform_distribution}中采样出一个实数$x$。
 然后我们对一个\gls{RV} $s$进行采样。
 $s$以$\frac{1}{2}$的概率值为1，否则为-1。
@@ -544,7 +544,7 @@ sigmoid函数在变量取绝对值非常大的正值或负值时会出现\firstg
 \label{fig:chap3_sigmoid_color}
 \end{figure}
 
-另外一个经常遇到的函数是\firstgls{softplus_function}\citep{secondorder:2001:nips}：
+另外一个经常遇到的函数是\firstgls{softplus_function}\citep{Dugas01}：
 \begin{equation}
 \zeta(x) = \log(1+\exp(x)).
 \end{equation}
@@ -603,7 +603,7 @@ P(\RSx \mid \RSy) = \frac{P(\RSx) P(\RSy \mid \RSx)}{P(\RSy)}.
 注意到$P(\RSy)$出现在上面的公式中，它通常使用$P(\RSy) = \sum_x P(\RSy \mid x) P(x)$来计算，所以我们并不需要事先知道$P(\RSy)$的信息。
 
 \gls{bayes_rule}可以从\gls{conditional_probability}的定义直接推导得出，但我们最好记住这个公式的名字，因为很多文献通过名字来引用这个公式。
-这个公式是以Reverend Thomas Bayes来命名的，他是第一个发现这个公式特例的人。
+这个公式是以牧师Thomas Bayes的名字来命名的，他是第一个发现这个公式特例的人。
 这里介绍的一般形式由Pierre-Simon Laplace独立发现。
 
 \section{连续型变量的技术细节}
@@ -679,8 +679,8 @@ p_x(\Vx) = p_y(g(\Vx)) \left | \det \left ( \frac{\partial g(\Vx)}{\partial \Vx}
 
 信息论是应用数学的一个分支，主要研究的是对一个信号包含信息的多少进行量化。
 它最初被发明是用来研究在一个含有噪声的信道上用离散的字母表来发送消息，例如通过无线电传输来通信。
-在这种情况下，信息论告诉我们如何设计最优编码，以及计算从一个特定的\gls{PD}上采样得到、使用多种不同编码机制的消息的期望长度。
-在机器学习中，我们也可以把信息论应用在连续型变量上，而信息论中一些消息长度的解释不怎么使用。
+在这种情况下，信息论告诉我们如何对消息设计最优编码以及计算消息的期望长度，这些消息是使用多种不同编码机制、从特定的\gls{PD}上采样得到的。
+在机器学习中，我们也可以把信息论应用于连续型变量，此时某些消息长度的解释不再适用。
 信息论是电子工程和计算机科学中许多领域的基础。
 在本书中，我们主要使用信息论的一些关键思想来描述\gls{PD}或者量化\gls{PD}之间的相似性。
 有关信息论的更多细节，参见~\cite{cover-book2006}或者~\cite{MacKay03}。
